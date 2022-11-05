@@ -7,6 +7,12 @@ namespace GitCore.Controllers
     [ApiController]
     public class EmployeeController : ControllerBase
     {
+        [HttpPost]
+        public IActionResult AddEmployee()
+        {
+            return Ok();
+        }
+
         [HttpGet]
         public ActionResult GetEmployees()
         {
