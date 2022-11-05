@@ -12,5 +12,11 @@ namespace GitCore.Controllers
         {
             return Ok();
         }
+
+        [HttpGet]
+        public ActionResult GetEmployees()
+        {
+            return Ok();
+        }
     }
 }
